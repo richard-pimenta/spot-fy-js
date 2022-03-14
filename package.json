@@ -1,0 +1,34 @@
+{
+  "name": "spot-fy",
+  "version": "1.0.0",
+  "description": "projeto de estudo",
+  "main": "index.js",
+  "engines": {
+    "node": "17"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live-reload": "nodemon server/ index.js",
+    "start": "node server/ index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richard-pimenta/spot-fy-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richard-pimenta/spot-fy-js/issues"
+  },
+  "homepage": "https://github.com/richard-pimenta/spot-fy-js#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.3"
+  }
+}
